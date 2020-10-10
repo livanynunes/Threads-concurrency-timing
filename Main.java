@@ -8,12 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ///// EXERCICIO A-1 RACE CONDITIONAL/////////////////////////////
         WithoutSynchronism ex1_aSync = new WithoutSynchronism();
-        // ex1.init();
+        ex1_aSync.init();
 
         WithSynchronism ex1_sync = new WithSynchronism();
-        // ex1.init();
+        // ex1_sync.init();
 
         // PrimeNumbers ex2 = new PrimeNumbers();
         // ex2.inti();
