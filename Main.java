@@ -3,20 +3,19 @@ import src.prime_numbers.*;
 import src.producer_consumer.*;
 
 public class Main {
-    private int count = 0;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        WithoutSynchronism ex1_aSync = new WithoutSynchronism();
-        ex1_aSync.init();
+        // WithoutSynchronism ex1_aSync = new WithoutSynchronism();
+        // ex1_aSync.init();
 
-        WithSynchronism ex1_sync = new WithSynchronism();
+        // WithSynchronism ex1_sync = new WithSynchronism();
         // ex1_sync.init();
 
         // PrimeNumbers ex2 = new PrimeNumbers();
         // ex2.inti();
 
-        ProducerConsumer ex3 = new ProducerConsumer();
+        // ProducerConsumer ex3 = new ProducerConsumer();
         // ex3.init();
 
     }
