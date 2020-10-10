@@ -12,10 +12,12 @@ public class Main {
         // WithSynchronism ex1_sync = new WithSynchronism();
         // ex1_sync.init();
 
-        // PrimeNumbers ex2 = new PrimeNumbers();
-        // ex2.inti();
+        PrimeNumber ex2 = new PrimeNumber();
+        ex2.init();
 
-        // ProducerConsumer ex3 = new ProducerConsumer();
+        // Passar o tamanho do buffer, numero de produtores, numero de consumidores, e
+        // metodo (semaforo,monitor), respectivamente
+        // ProducerConsumer ex3 = new ProducerConsumer(10, 4, 2, "monitor");
         // ex3.init();
 
     }
