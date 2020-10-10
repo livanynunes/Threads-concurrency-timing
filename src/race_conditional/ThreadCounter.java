@@ -5,11 +5,10 @@ public class ThreadCounter extends Thread {
 
     public ThreadCounter(Counter counter) {
         this.counter = counter;
-        System.out.println(this.counter);
     }
 
     public void run() {
-        for (int i = 0; i < 10; i++) { // um milhão
+        for (int i = 0; i < 1000000; i++) {
             this.counter.setCount();
         }
     }

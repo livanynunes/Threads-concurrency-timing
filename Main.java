@@ -4,7 +4,6 @@ import src.producer_consumer.*;
 
 public class Main {
     private int count = 0;
-    private static final int threadPoolSize = 5;
 
     public static void main(String[] args) {
 
